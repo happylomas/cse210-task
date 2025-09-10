@@ -1,0 +1,40 @@
+body {
+    width: auto;
+    margin: 10;
+    padding: 20px solid green;
+    border-radius: 10px;
+    align-items: center;
+    box-sizing: border-box;
+    max-width: 800px;
+}
+
+
+header {
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding: auto;
+    text-align: justify;
+    width: auto;
+    border: 50px;
+    margin: 50px;
+}
+
+.card {
+    background-color: rgb(85, 76, 76);
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h3 {
+    color: rgb(5, 236, 109);
+}
+p {
+    color: white;
+}
+
+h2 {
+    color: rgb(142, 184, 142);
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince Ebere - CSE 210 Home Work Page</title>
+    <link rel="stylesheet" href="styles/cse-hw.css">
+</head>
+<body>
+    <header>
+        <h1>CSE 210 Home Work Page</h1>
+        <nav>
+            <ul>
+                <li><a href="week01.html">Week01</a></li>
+                <li><a href="week02.html">Week02</a></li>
+                <li><a href="">Week03</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+        <h2>Abstraction</h2>
+        <h3>Explain the meaning of Abstraction</h3>
+        <p>- Abstraction is the proccess of understanding complex idea 
+            and dividing it into smaller or simple proccess. At the end making it look 
+            easier and more understandable.
+        </p>
+        <h3>Highlight a benefit of Abstraction</h3>
+        <p>- Abstraction help to reduce the complexity of a code</p>
+        <p>- Makes it easier to read and maintain a code or programe</p>
+        <p>- It helps programmers to reuse a code or function instead of rewriting a code over and over again.</p>
+        <h3>Application of Abstraction</h3>
+        <p>- programmers use abstraction in Object and Class oriented programming. 
+            For instance a building can be seen as an object, that holds so many part of the building, the windows, door bed etc
+            While a class can be seen as a method that carries out the action, example calculate the size of the windows, doors bed etc
+        </p>
+        <h3>Example of Abstraction</h3>
+        <p>- Consider this as an App that prompt users to write on their journal.</p>
+        <p>- We have the Object we can call it Journal this is where tell the app what to do</p>
+        <p>- And we have other classes that help them carry out the instructions "how to do it"</p>
+        <p>-    public class Journal (this object or class gives the instructions)</p>
+        
+               <p>Public List<AddEntry> _entries = new List<AddEntry>(); (now he instructed to add enteries, now we need another class to tell us specifically how to add the enteries) </p>
+               <p> Public PromptGenerator pgen = new PromptGenerator(); (same here we need a differnt command to tell us how the prompt works in details)</p>
+       <p>  [ public class PromptGenerator</p>
+        
+           <p> public List<string> _prompt = new List<string>()</p>
+            
+                "What are you grateful about today?",
+                "What was the best part of your day?",
+                "What did you gain today and what will you like to remember about today?"
+            
+                <p> public Random rnd = new Random(); </p>
+        
+                <p>public string GetPrompt()</p>
+            
+                <p>int index = rnd.Next(_prompt.Count);</p>
+                return _prompt[index];
+                // RETURN prompts[index]
+                <p> All these line of code in [] gives the details command on what prompt the program gives.</p>
+
+           ]
+            
+         
+
+       </p>
+    </section>
+
+    </main>
+    <footer>
+        <p>Prince Ebere: &copy; Abia State, Nigeria</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
