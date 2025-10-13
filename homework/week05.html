@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince Ebere - CSE 210 Home Work Page</title>
+    <link rel="stylesheet" href="styles/cse-hw.css">
+</head>
+<body>
+    <header>
+        <h1>CSE 210 Home Work Page</h1>
+        <nav>
+            <ul>
+                <li><a href="week01.html">Week01</a></li>
+                <li><a href="week02.html">Week02</a></li>
+                <li><a href="week03.html">Week03</a></li>
+                <li><a href="week05.html">Week05</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+        <h2>Inheritance</h2>
+        <h3>Explain the meaning of Inheritance</h3>
+        <p>- Inheritance in proramming is just the same in real world. It is a concpet where one class inherites,
+             or automatically gain access to methods and attributes from another class.
+        </p>
+        <h3>Highlight a benefit of Inheritance</h3>
+        <p>- Inheritance helps reduces duplication, centralizes common logic.</p>
+        <p>- Inheritance Makes it easier for programmers  to maintain  code and avoide too many changes when developing a program.</p>
+        <p>- It helps programmers to reuse a code or function instead of rewriting a code over and over again.</p>
+        
+        <h3>Application of Inheritance</h3>
+        <p>- Inheritance are mainly use in letting a class obtain attributes and methods of another class that is called the parent class.</p>
+        <p>- For example. In the Mindfulness program I created, Activity is a base class that holds shared data (name, description, duration) 
+            and common helper methods (showing the starting/ending messages, spinner animation, countdown). 
+            Each specific activity — breathing, reflecting, and listing — inherits from Activity.
+        </p>
+
+<h1></h1>
+            <p>***Base class (shared behavior)***</p>
+            <p>public class Activity</p>
+            <p>protected string _name;</p>
+            <p>protected string _description;</p>
+            <p>protected int _duration;</p>
+            <p></p>
+            <p>public void DisplayEndingMessage()</p>
+            <p>public void DisplayStartingMessage()</p>
+            <p>
+            </p>
+<h1></h1>
+            <p>***Derived class (inherited behavior)***</p>
+
+            <p>public class ReflectingActivity : Activity</p>
+
+            <p>DisplayStartingMessage();     (inherited  method)</p>
+            <p>DisplayEndingMessage();       (inherited  method)</p>
+
+
+        <!-- <h3>Example of Encapsulation</h3>
+        <p>- This is a program that help primary student memorize Scripture verses.</p>
+        <p>- Now we have a class called Reference, this class has virables that we kept private, and also a constructor that 
+            tells us how we can display them. There's also a getter, and then a display function that is public.
+        </p>
+        <p>- And we have other classes that help the program, but cannot maipulate these private objects."</p>
+        <p>- Encapsulation simply make it possible for us to keep things we don't wish to keep changing in a private mode.</p>
+         -->
+                <!-- <p> All these line of code in [] gives the details command on what prompt the program gives.</p> -->
+
+    </section>
+
+    </main>
+    <footer>
+        <p>Prince Ebere: &copy; Abia State, Nigeria</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
