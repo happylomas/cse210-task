@@ -1,0 +1,4 @@
+0
+Simple:sleep early,at least have 5 hours sleep,10,False
+Eternal:pray every morning,make sure i pray every morning ,10
+Checklist:call my mum,call my mum at least once everyday,10,10,0,1
